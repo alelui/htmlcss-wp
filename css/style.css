@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    width: 70%;
+    width: 76%;
     margin: 0 auto;
 }
 
@@ -78,13 +78,13 @@ main{
     padding-bottom: 15px;
 }
 
-.column{
+/* .column{
     width: 15%;
-}
+} */
 
 .content{
     width: 66%;
-    margin: 0 2%;
+    margin: 0 1%;
 }
 
 
@@ -108,7 +108,6 @@ footer{
 
 .debug .header-bottom{
     height: 500px;
-    background-color: rgb(205, 205, 50);
     padding-left:50px;
     padding-top: 350px;
     background-image: url('../img/banner.jpg');
@@ -147,7 +146,6 @@ footer{
 
 /* *** DEBUG MAIN *** */
 .debug .main-top{
-    height: 20%;
     background-color: rgb(124, 161, 230);
 }
 
@@ -156,11 +154,27 @@ footer{
 }
 
 .debug .column{
-    height: 80%;
+    height: 200px;
     background-color: rgb(124, 161, 230);    
 }
 
+.debug .column .photo-sx{
+    width: 200px;
+}
+
 .debug .content{
-    height: 80%;
-    background-color: rgb(124, 161, 230);    
+    height: 200px;
+    background-color: rgb(124, 161, 230);  
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-position: 50% 52%;  
+}
+
+/* .debug .content img{
+    height: 180px;
+} */
+
+
+.debug .subtitle{
+    color: rgb(182, 180, 180);
 }
