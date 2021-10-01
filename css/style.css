@@ -1,0 +1,116 @@
+/* *** COMMONS *** */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+.margin-b-20px{
+    margin-bottom: 20px;
+}
+
+
+
+/* *** HEADER *** */
+
+header{
+    width: 100%;
+}
+
+
+/* *** MAIN *** */
+
+main{
+    width: 100%;
+    background-color: rgb(19, 80, 233);
+    
+    /* da rimuovere */
+    height: 400px;
+}
+
+.main-top{
+    width: 100%;  
+}
+
+.main-bottom{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.column{
+    width: 15%;
+}
+
+.content{
+    width: 66%;
+    margin: 0 2%;
+}
+
+
+/* *** FOOTER *** */
+
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* ****** DEBUG ****** */
+
+/* *** DEBUG HEADER *** */
+.debug .header-top{
+    height: 90px;
+    background-color: violet;
+}
+
+.debug .header-bottom{
+    height: 270px;
+    background-color: rgb(205, 205, 50);
+}
+
+/* *** DEBUG MAIN *** */
+.debug .main-top{
+    height: 20%;
+    background-color: rgb(124, 161, 230);
+}
+
+.debug .main-bottom{
+    height: 93%; 
+}
+
+.debug .column{
+    height: 80%;
+    background-color: rgb(124, 161, 230);    
+}
+
+.debug .content{
+    height: 80%;
+    background-color: rgb(124, 161, 230);    
+}
