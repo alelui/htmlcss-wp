@@ -28,7 +28,6 @@ body{
     float: left;
 }
 
-
 .margin-b-20px{
     margin-bottom: 20px;
 }
@@ -98,6 +97,7 @@ footer{
 footer span::after{
     content: '\2665';
     color: red;
+    font-size: 18px;
 }
 
 
@@ -147,13 +147,7 @@ footer span::after{
 
 
 /* *** DEBUG MAIN *** */
-.debug .main-top{
-    /* background-color: rgb(124, 161, 230); */
-}
 
-.debug .main-bottom{
-    height: 93%; 
-}
 
 
 .debug .content img,
