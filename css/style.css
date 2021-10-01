@@ -28,6 +28,7 @@ body{
     float: left;
 }
 
+
 .margin-b-20px{
     margin-bottom: 20px;
 }
@@ -106,8 +107,15 @@ footer{
 
 
 .debug .header-bottom{
-    height: 270px;
+    height: 500px;
     background-color: rgb(205, 205, 50);
+    padding-left:50px;
+    padding-top: 350px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 50px;
 }
 
 .debug #logo{
@@ -122,6 +130,19 @@ footer{
 .debug nav ul{
     list-style: none;
 }
+
+.debug .header-bottom .description-title,
+.debug .header-bottom .description-text{
+    width: 50%;
+  }
+
+.debug .header-bottom .description-title span{
+  font-size: 25px;  
+}
+.debug .header-bottom .description-text span{
+    font-size: 12px;  
+  }
+
 
 
 /* *** DEBUG MAIN *** */
