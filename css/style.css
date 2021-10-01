@@ -8,6 +8,7 @@
 
 body{
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -31,12 +32,29 @@ body{
     margin-bottom: 20px;
 }
 
+header li{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+header li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(182, 180, 180);
+    font-size: 11px;
+}
+
 
 
 /* *** HEADER *** */
 
 header{
     width: 100%;
+}
+
+nav{
+    height: 40px;
+    line-height: 40px;
 }
 
 
@@ -85,28 +103,24 @@ footer{
 /* ****** DEBUG ****** */
 
 /* *** DEBUG HEADER *** */
-.debug .header-top{
-    height: 90px;
-    background-color: violet;
-}
+
 
 .debug .header-bottom{
     height: 270px;
     background-color: rgb(205, 205, 50);
 }
 
-.debug .logo{
-    border-right: 1px solid black;
+.debug #logo{
+    border-right: 1px solid lightgray;
     width: 170px;
 }
 
-.debug .logo .neori{
+.debug #logo #neori{
     width: 145px;
 }
 
 .debug nav ul{
     list-style: none;
-    display: inline-block;
 }
 
 
