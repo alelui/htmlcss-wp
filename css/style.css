@@ -95,6 +95,21 @@ footer{
     background-color: rgb(205, 205, 50);
 }
 
+.debug .logo{
+    border-right: 1px solid black;
+    width: 170px;
+}
+
+.debug .logo .neori{
+    width: 145px;
+}
+
+.debug nav ul{
+    list-style: none;
+    display: inline-block;
+}
+
+
 /* *** DEBUG MAIN *** */
 .debug .main-top{
     height: 20%;
