@@ -63,10 +63,6 @@ nav{
 
 main{
     width: 100%;
-    background-color: rgb(19, 80, 233);
-    
-    /* da rimuovere */
-    height: 400px;
 }
 
 .main-top{
@@ -78,9 +74,9 @@ main{
     padding-bottom: 15px;
 }
 
-/* .column{
-    width: 15%;
-} */
+.column{
+    width: 16%;
+}
 
 .content{
     width: 66%;
@@ -146,35 +142,37 @@ footer{
 
 /* *** DEBUG MAIN *** */
 .debug .main-top{
-    background-color: rgb(124, 161, 230);
+    /* background-color: rgb(124, 161, 230); */
 }
 
 .debug .main-bottom{
     height: 93%; 
 }
 
-.debug .column{
-    height: 200px;
-    background-color: rgb(124, 161, 230);    
+
+.debug .content img,
+.debug .column .photo{
+    height: 200px; 
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.debug .column .photo-sx{
-    width: 200px;
-}
 
-.debug .content{
-    height: 200px;
-    background-color: rgb(124, 161, 230);  
-    background-image: url('../img/banner-2.jpg');
-    background-size: cover;
-    background-position: 50% 52%;  
-}
-
-/* .debug .content img{
-    height: 180px;
-} */
-
-
-.debug .subtitle{
+.debug .main-top .subtitle{
     color: rgb(182, 180, 180);
+}
+
+
+.debug .main-bottom h4{
+    color: grey;
+    font-weight: 500;
+    
+}
+
+.debug .main-bottom span{
+    color: rgb(176, 176, 176);
+    font-size: 10px;
+    
+    
 }
